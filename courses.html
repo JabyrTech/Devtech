@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="cstyle.css">
+	<title>DevTech Coureses</title>
+</head>
+<body onload="myFunc()">
+	<div id="loader">
+		<img class="loaderlogo" src="images/logo icon.png">
+	</div>
+
+	<main id="main">
+		<header>
+			<nav>
+				<div class="logo">
+					<i class="fa-solid fa-font-awesome"></i><a href="index.html">DevTech</a>
+				</div>
+				<div class="navlink">
+				<li>
+					<a href="index.html"><ul>Home</ul></a>
+					<a href="#"><ul>About Us</ul></a>
+					<a href="courses.html"><ul>Courses</ul></a>
+					<a href="#"><ul>Contact Us</ul></a>
+					<button>Join DevTech</button>
+				</li>
+				</div>
+
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    			<img src="images/menu-before.jpg" style="width: 25px; height: 25px;">
+  				</a>
+
+			</nav>
+		</header>
+		<hr>
+
+		<div id="navlink2" class="navlink2">
+				<li>
+					<a href="index.html">Home</a>
+					<a href="#">About Us</a>
+					<a href="courses.html">Courses</a>
+					<a href="#">Contact Us</a>
+					<button>Join DevTech</button>
+				</li>
+		</div>
+
+		<section id="content">
+		<section class="up">
+			<div class="heading">
+				<h1>DevTech Courses</h1>
+			</div>
+
+			<section>
+				<div class="head-note">
+					<h2>Our Courses</h2>
+				</div>
+			<div class="slider">
+				<div class="course">
+					<a href="courses.html"><div class="imag" style="background-image: url('images/1102030.png');"></div>
+					<div class="disc"><h3>Web Development</h3><p>Learn the Basics of HTML, CSS and Javascript and create real world project</p></div></a>
+				</div>
+				<div class="course">
+					<a href="courses.html"><div class="imag" style="background-image: url('images/robotics.jpg');"></div>
+					<div class="disc"><h3>Robotics</h3><p>Make Your own Robots using Arduino and get started with C++ and automation</p></div></a>
+				</div>
+				<div class="course">
+					<a href="courses.html"><div class="imag" style="background-image: url('images/wp8740358-python-code-wallpapers.png');"></div>
+					<div class="disc"><h3>Machine Learning</h3><p>Learn Python for Machine Learning and Deep Learning to develop AI</p></div></a>
+				</div>
+				<div class="course">
+					<a href="courses.html"><div class="imag" style="background-image: url('images/muslim code.jpg');"></div>
+					<div class="disc"><h3>UI and UX Design</h3><p>Get familiar with Designs and styles for making a User Interface Design</p></div></a>
+				</div>
+			</div>
+		</section>
+			<div class="test">
+				<p>Not sure which one to pick?<br>Answer these Questions so we can help</p>
+				<button>Take Questions</button>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="foot">
+				<div class="logo">
+						<i class="fa-solid fa-font-awesome"></i><a href="#">DevTech</a>
+					</div>
+				<div class="linkss">
+					<h5>Social links</h5>
+					<a href="#">Facebook</a> <br>
+					<a href="#">Instagram</a> <br>
+					<a href="#">Twitter</a> <br>
+					<a href="#">Github</a> <br>
+					<a href="#">TikTok</a> <br>
+					<a href="#">Dcoder</a>
+				</div>
+				<div class="linkss">
+					<h5>Related Links</h5>
+					<a href="#">Jabyr.Tech</a> <br>
+					<a href="#">Easy Coding</a> <br>
+					<a href="#">Learn to code</a> <br>
+					<a href="#">Techverse</a> <br>
+					<a href="#">Technology</a> <br>
+					<a href="#">Willy Code</a>
+				</div>
+			</section>
+			<hr>
+			<footer>
+				<p>© 2023 Jabyr.Tech. All rights reserved. - DevTech<p>
+			</footer>
+		</section>
+	</main>
+
+
+	<script type="text/javascript">
+
+		var myVar;
+
+		function myFunc(){
+			myVar = setTimeout(showPage, 3000);
+		}
+
+		function showPage(){
+			document.getElementById("loader").style.display = "none";
+			document.getElementById("main").style.display = "block";
+		}
+
+
+		function shide(){
+			var w = document.getElementById('sbt1');
+
+			if (w.style.display==="none"){
+				w.style.display = "block";
+				
+			}
+			else {
+				w.style.display = "none";
+			}
+		}
+
+		function shhide(){
+			var x = document.getElementById('sbt2');
+
+			if (x.style.display==="none"){
+				x.style.display = "block";
+			}
+			else {
+				x.style.display = "none";
+			}
+		}
+
+		function shohide(){
+			var y = document.getElementById('sbt3');
+
+			if (y.style.display==="none"){
+				y.style.display = "block";
+			}
+			else {
+				y.style.display = "none";
+			}
+		}
+
+		function showhide(){
+			var z = document.getElementById('sbt4');
+
+			if (z.style.display==="none"){
+				z.style.display = "block";
+			}
+			else {
+				z.style.display = "none";
+			}
+		}
+
+		function myFunction(){
+			var p = document.getElementById("content");
+			var q = document.getElementById("navlink2");
+
+			if(q.style.display==="none"){
+				p.style.display = "none";
+				q.style.display = "block";
+			}
+			else {
+				p.style.display = "block";
+				q.style.display = "none";
+			}
+
+		}
+
+	</script>
+</body>
+</html>

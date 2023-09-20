@@ -1,0 +1,263 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	background-size: contain;
+	font-family: "ubuntu", sans-serif;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+hr {
+	height: 25px;
+	margin: 0;
+	background-image: url("images/border.png");
+}
+
+
+#loader{
+	display: flex;
+	height: 500px;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+}
+
+.loaderlogo{
+	animation: animae 3s linear infinite;
+}
+
+@keyframes animae{
+	0%{
+		transform: rotateZ(0deg);
+	}
+	100%{
+		transform: rotateZ(360deg);
+	}
+}
+#main{
+	display: none;
+	position: relative;
+	-webkit-animation-name: animatebottom;
+	-webkit-animation-duration: 1s;
+	animation-name: animatebottom;
+	animation-duration: 1s;
+}
+
+@keyframes animatebottom {
+	from {bottom:-100px; opacity: 0}
+	to {bottom:0; opacity: 1}
+}
+
+@-webkit-keyframes animatebottom {
+	from {bottom:-100px; opacity: 0}
+	to {bottom:0; opacity: 1}
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: rgba(47, 79, 79, 0.8);
+	overflow-x: hidden;
+	align-items: center;
+	height: 100px;
+}
+
+.navlink{
+	float: right;
+}
+
+.navlink li, .navlink2 li {
+	display: flex;
+	text-decoration: none;
+	color: white;
+
+}
+
+.navlink a, .navlink2 a {
+	color:  lightgray;
+}
+
+.navlink a, .navlink2 a:hover {
+	text-decoration: underline;
+	color: white;
+	font-weight: bold;
+}
+
+nav button, .navlink2 button {
+	margin: 5px auto;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	font-weight: 500;
+	padding: 12px 22px;
+	background-color: transparent;
+	color: #999999;
+	border-radius: 10px;
+	border: 2px solid #0aa5ff;
+	transition: 0.2s;
+}
+
+nav button:hover, .navlink2 button:hover {
+	background-color: #0aa5ff;
+	color: white;
+	cursor: pointer;
+}
+
+nav .icon {
+  display: none;
+}
+
+.navlink2{
+	display: none;
+	width: 100%;
+	height: 450px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	transition-duration: 2s;
+	background-color: darkslategrey;
+}
+
+.navlink2 a {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.navlink2 li {
+	flex-wrap: wrap;
+}
+.navlink2 button {
+	width: 80%;
+	height: 40px;
+	margin: 10px auto;
+}
+
+@media (max-width: 700px) {
+	.navlink a, nav button {display: none;}
+	nav a.icon {
+    float: right;
+    display: block;
+    height: 35px;
+  	width: 35px;
+  	margin-top: 5px;
+  	margin-bottom: 5px;
+  	margin-right: 5px;
+  	object-fit: cover;
+  	overflow-x: hidden;
+  	overflow-y: hidden;
+  }
+}
+
+.slider {
+	margin: 0;
+	padding: 20px;
+	height: fit-content;
+	background-color: white;
+	display: flex;
+	overflow-x: auto;
+	width: 100%;
+	-webkit-overflow-scrolling: touch;
+	justify-content: space-evenly;
+  }
+  
+  @media (max-width: 1200px) {
+	.slider {
+	  justify-content: flex-start;
+	}
+  }
+  
+  .course {
+	width: 250px;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 1px solid white;
+	flex-shrink: 0;
+	margin: 10px;
+	border-radius: 20px;
+  }
+  .course:hover {
+	border-bottom: 20px solid darkslategrey;
+	cursor: pointer;
+  }
+  
+  .imag {
+	border-radius: 20px 20px 0 0;
+	width: 250px !important;
+	height: 150px;
+	background-size: cover;
+  }
+  .one {
+	background-image: url("images/webdev.jpg");
+  }
+  .disc {
+	padding: 10px;
+  }
+
+.test{
+	margin: 10px auto;
+	text-align: center;
+	padding: 10px;
+	color: white;
+	align-items: center;
+}
+
+.test button {
+	width: 100px;
+	border: 1px solid white;
+	border-radius: 10px;
+	cursor: help;
+}
+
+.test button:hover{
+	background-color: white;
+	color: darkslategrey;
+}
+
+.foot {
+	background-color: darkslategrey;
+  padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo a {
+	font-size: 24px;
+	font-weight: 700;
+	margin-left: 12px;
+	margin-top: 20px;
+	color: white;
+}
+.linkss {
+	width: 150px;
+	margin: 20px;
+}
+
+.linkss h5{
+	color: white;
+	font-size: 22px;
+}
+
+.linkss a{
+	color: darkgray;
+	margin: 5px;
+	margin-top: 3px;
+}
+
+.linkss a:hover {
+	font-size: 20px;
+	text-decoration: underline;
+}
+
+footer{
+	padding: 5px;
+	text-align: center;
+	color: darkslategrey;
+}

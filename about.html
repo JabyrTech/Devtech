@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About DevTech</title>
+	<link rel="stylesheet" type="text/css" href="about.css">
+</head>
+<body onload="myFunction()">
+
+	<div id="loader">
+		<img src="images/logo icon.png">
+	</div>
+
+	<main id="main">
+		<header style="background-image: url(images/road\ 2.jpg); background-size: cover;">
+			<div class="welcome-page">
+				<nav id="navigation">
+					<li>
+						<a href="index.html"><ul>DevTech</ul></a>
+						<a href="index.html"><ul>Dandalin Coding</ul></a>
+						<a href="index.html"><ul>JabyrTech</ul></a>
+						<a href="index.html"><ul>Contact Us</ul></a>
+					</li>
+				</nav>
+
+				<div class="welcome">
+					<img src="images/DevTech_logo.png">
+				</div>
+			</div>	
+		</header>
+
+		<section>
+			<div class="heading">
+				<h1>Who are We?</h1>
+			</div>
+			<div class="waw"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et hic dolor corporis pariatur 
+				nam adipisci qui numquam veritatis commodi necessitatibus incidunt culpa, quo ducimus ratione ab eligendi 
+				veniam? Culpa consequatur eos ipsum unde, nisi laboriosam est cum dolor animi! Ipsam non aut veritatis 
+				cum animi voluptatibus reiciendis accusamus quia autem.</p></div>
+
+			<div class="gallery">
+				<img src="images/robotics 2.jpg">
+				<img src="images/muslim code.jpg">
+				<img src="images/robotics 3.jpg">
+				<img src="images/coding office.jpg">
+			</div>
+		</section>
+		<section>
+			<div class="heading">
+				<h1>Our History</h1>
+			</div>
+			<div class="our_history">
+				<div class="history">
+					<h1>2022</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam consectetur praesentium quibusdam quis doloribus harum perferendis sequi nobis doloremque!</p>
+				</div>
+				<div class="history">
+					<h1>2023</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam consectetur praesentium quibusdam quis doloribus harum perferendis sequi nobis doloremque!</p>		
+				</div>
+				<div class="history">
+					<h1>2024</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam consectetur praesentium quibusdam quis doloribus harum perferendis sequi nobis doloremque!</p>
+				</div>
+					<div class="history">
+						<h1>2025</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam consectetur praesentium quibusdam quis doloribus harum perferendis sequi nobis doloremque!</p>
+				</div>
+				<div class="history">
+					<h1>2026</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam aperiam consectetur praesentium quibusdam quis doloribus harum perferendis sequi nobis doloremque!</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="gallery">
+				<img src="">
+				<img src="">
+				<img src="">
+			</div>
+		</section>
+	</main>
+
+	<script type="text/javascript">
+		
+		var myVar;
+
+			function myFunction(){
+				myVar = setTimeout(showPage, 3000);
+			}
+
+			function showPage(){
+				document.getElementById("loader").style.display = "none";
+				document.getElementById("main").style.display = "block";
+			}
+
+			
+			function myFunc() {
+				var p = document.getElementById("content");
+				var q = document.getElementById("navlink2");
+				var g = document.getElementById("navi")
+
+				if (p.style.display==="block"){
+					q.style.display = "block";
+					p.style.display = "none";
+					g.style.background = "rgb(47, 79, 79)";
+				}
+				else {
+					q.style.display = "none";
+					p.style.display = "block";
+					g.style.background = "rgba(0, 0, 0, 0.6)";
+				}
+			}
+
+	</script>
+</body>
+</html>

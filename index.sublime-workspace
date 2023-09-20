@@ -1,0 +1,472 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dar",
+				"darkslategrey"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"gra",
+				"darkgray"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"fit",
+				"object-fit"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"f",
+				"flex-shrink"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"h",
+				"hr"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"flex",
+				"flex-shrink"
+			],
+			[
+				"re",
+				"review"
+			],
+			[
+				"l",
+				"lavender"
+			],
+			[
+				"co",
+				"cornflowerblue"
+			],
+			[
+				"ch",
+				"chocolate"
+			],
+			[
+				"i",
+				"img"
+			],
+			[
+				"darksl",
+				"darkslategray"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"u",
+				"underline"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"post",
+				"post-in"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"po",
+				"post-in"
+			],
+			[
+				"ju",
+				"justify-items"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ima",
+				"image2"
+			],
+			[
+				"darks",
+				"darkslategray"
+			],
+			[
+				"line",
+				"linear-gradient()"
+			],
+			[
+				"tans",
+				"transition"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-inline"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"pic-",
+				"pic-ml"
+			],
+			[
+				"r",
+				"royalblue"
+			],
+			[
+				"br",
+				"burlywood"
+			],
+			[
+				"fl",
+				"flex-flow"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"bla",
+				"blanchedalmond"
+			],
+			[
+				"light",
+				"lightgray"
+			],
+			[
+				"li",
+				"lightgray"
+			],
+			[
+				"lin",
+				"linear-gradient()"
+			],
+			[
+				"whi",
+				"navajowhite"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"sp",
+				"space-evenly"
+			],
+			[
+				"or",
+				"orchid"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"wh",
+				"white"
+			],
+			[
+				"me",
+				"meta"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"head",
+				"header"
+			],
+			[
+				"hea",
+				"header"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"console.log('hello world')",
+			"Javascript"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/H P/Desktop/poetfolio/index.js",
+		"/C/Users/H P/Desktop/poetfolio/index.html",
+		"/C/Users/H P/Desktop/New folder/show.css",
+		"/C/Users/H P/Desktop/New folder/show4u.html",
+		"/C/Users/H P/Desktop/poetfolio/sadik.html",
+		"/C/Users/H P/Desktop/poetfolio/sadiq.css",
+		"/C/Users/H P/Desktop/poetfolio/styler.css",
+		"/C/Users/H P/Desktop/poetfolio/courses.html",
+		"/C/Users/H P/Desktop/poetfolio/cstyle.css",
+		"/C/Users/H P/Downloads/project.html",
+		"/C/Users/H P/Desktop/huzaifah/show4u",
+		"/C/Users/H P/Desktop/huzaifah/huzy.py",
+		"/C/Users/H P/Desktop/huzaifah/huzi.js",
+		"/C/Users/H P/Desktop/poetfolio/huzy.py",
+		"/C/Users/H P/Downloads/style.css",
+		"/C/Users/H P/Desktop/tophighflyer/index.html",
+		"/C/Users/H P/Downloads/Sublime Text Build 3211 x64 Setup.exe",
+		"/C/Users/H P/Desktop/poetfolio/style.css",
+		"/C/Users/H P/Downloads/login.js",
+		"/C/Users/H P/Downloads/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

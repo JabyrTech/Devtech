@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="sadiq.css">
+	<title>Sadiq</title>
+</head>
+<body>
+	<h1> Quiz Site </h1>
+	<form>
+		<h4> Question 1 </h4>
+		<label for="radio">Who is the smartest child in the building?</label> <label><input type="radio" id="rad1" name="radio" value="1"/>Jabir</label>
+        <label><input type="radio" id="rad2" name="radio" value="2"/>Huzaifah</label>
+        <label><input type="radio" id="rad3" name="radio" value="3"/>Sadiq</label>
+        <label><input type="radio" id="rad4" name="radio" value="3"/>Anisa</label>
+        <label><input type="radio" id="rad5" name="radio" value="3"/>Nabiha</label>
+
+        <h5 id="done1" class="boost"></h5>
+
+       
+        <input type="submit" id="submit" onclick="book()" placeholder="Submit">
+	</form>
+
+
+	<script>
+				
+		var answer = document.getElementById('done1');
+
+		function book(){
+
+			let rad1 = document.getElementById('rad1');
+			let rad2 = document.getElementById('rad2');
+			let rad3 = document.getElementById('rad3');
+			let rad4 = document.getElementById('rad4');
+			let rad5 = document.getElementById('rad5');
+		
+			if(rad1.checked){
+				answer.innerHTML = "You are Correct!";
+			}
+			
+			if(rad2.checked){
+		answer.innerHTML = "You are Wrong!";
+	}
+	if(rad3.checked){
+		answer.innerHTML = "You are Wrong!";
+	}
+	if(rad4.checked){
+		answer.innerHTML = "You are Wrong!";
+	}
+	if(rad5.checked){
+		answer.innerHTML = "You are Wrong!";
+	}
+}
+	</script>
+</body>
+</html>
